@@ -11,4 +11,5 @@ public class PagingResponseDto<T> {
     private List<OperationError> errorList;
     private Integer page;
     private Integer limit;
+    private Long total;
 }
